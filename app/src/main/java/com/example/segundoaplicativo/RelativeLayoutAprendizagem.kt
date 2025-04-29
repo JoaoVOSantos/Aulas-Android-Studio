@@ -9,7 +9,6 @@ import androidx.core.view.WindowInsetsCompat
 class RelativeLayoutAprendizagem : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_relative_layout_aprendizagem)
 
     }

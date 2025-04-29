@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 class Lista : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_lista)
 
         // uma variavel que tipifica um componente

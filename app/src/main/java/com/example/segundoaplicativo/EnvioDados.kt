@@ -14,7 +14,6 @@ class EnvioDados : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_envio_dados)
 
         val botaoEnviar : Button = findViewById(R.id.butao)

@@ -15,7 +15,6 @@ class calculadora : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_calculadora)
 
         valor1 = findViewById(R.id.valor1)

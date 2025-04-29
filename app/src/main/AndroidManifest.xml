@@ -19,7 +19,7 @@
             android:name=".Lista"
             android:exported="false" />
         <activity
-            android:name=".Clone"
+            android:name=".AprendendoToolBar"
             android:exported="false" />
         <activity
             android:name=".EnvioDados"

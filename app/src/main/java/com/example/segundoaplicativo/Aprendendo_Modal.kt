@@ -10,7 +10,6 @@ import androidx.core.view.WindowInsetsCompat
 class Aprendendo_Modal : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_aprendendo_modal)
 
         val title = AlertDialog.Builder(this)

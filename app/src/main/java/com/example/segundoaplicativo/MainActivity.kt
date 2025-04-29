@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_main)
 
         val botaoCalculadora : Button = findViewById(R.id.telaCalculadora)
@@ -28,31 +27,33 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this, EnvioDados::class.java)
             startActivity(intent)
         }
-        val BotaoClone : Button = findViewById(R.id.TelaCLone)
-        BotaoClone.setOnClickListener{
-            var intent = Intent(this, Clone::class.java)
+        val BotaoToolbar : Button = findViewById(R.id.telaToolBar)
+        BotaoToolbar.setOnClickListener{
+            var intent = Intent(this, AprendendoToolBar::class.java)
             startActivity(intent)
         }
 
-        val BotaoLista : Button = findViewById(R.id.TelaLista)
-        BotaoLista.setOnClickListener{
-            var intent = Intent(this, Lista::class.java)
-            startActivity(intent)
-        }
+    }
+    fun AprendendoRelativeLayout(view:View){
+        var intent = Intent(this, RelativeLayoutAprendizagem::class.java)
+        startActivity(intent)
+
+    }
+
+    fun AprendendoModal(view:View){
+        var intent = Intent(this, Aprendendo_Modal::class.java)
+        startActivity(intent)
+
     }
 
     fun Lista(view:View){
-        // navegação
         var intent = Intent(this, Lista::class.java)
         startActivity(intent)
-        //Commit Aula
 
     }
     fun ListaFixa(view:View){
-        // navegação
         var intent = Intent(this, ListaFixa::class.java)
         startActivity(intent)
-        //Commit Aula
 
     }
 
