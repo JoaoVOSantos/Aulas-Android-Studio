@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercicio_Login_RelativeLayout">
+
+
+    <ImageView
+        android:id="@+id/LogoIte"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/logo_ite"/>
+
+    <TextView
+        android:id="@+id/Texto"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_below="@id/LogoIte"
+        android:gravity="center"
+        android:text="Faça seu Login em Nossa Plataforma!!"
+        android:layout_centerHorizontal="true"
+        android:textColor="#125212"
+        android:layout_marginTop="10dp"
+    />
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_below="@id/Texto"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:hint="Digite seu Login"
+        />
+
+    <EditText
+        android:id="@+id/Senha"
+        android:layout_below="@id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:hint="Digite sua Senha"
+        />
+
+    <Button
+        android:id="@+id/BotaoEntrar"
+        android:layout_below="@id/Senha"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="0dp"
+        android:text="ENTRAR"
+        android:backgroundTint="#125212"
+        />
+    <Button
+        android:id="@+id/BotaoLimpar"
+        android:layout_alignBottom="@id/BotaoEntrar"
+        android:layout_toRightOf="@id/BotaoEntrar"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#FF0000"
+        android:text="LIMPAR"/>
+
+    <TextView
+        android:id="@+id/Texto2"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/BotaoLimpar"
+        android:gravity="center"
+        android:text="CRIE SUA CONTA AGORA MESMO!"
+        android:layout_centerHorizontal="true"
+        android:textColor="#125212"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/BotaoCadastrar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="0dp"
+        android:layout_below="@id/Texto2"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#125212"
+        android:text="CRIAR CONTA"/>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutAprendizagem">
+
+
+    <EditText
+        android:id="@+id/TextPesquisa"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite Seu Login"/>
+
+    <Button
+        android:id="@+id/BotaoLupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/TextPesquisa"
+        android:text="Lupa"
+
+        />
+
+    <TextView
+        android:id="@+id/Texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Você Gosta de mim?"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/Botao1"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/Texto"
+        android:layout_alignLeft="@id/Texto"
+        android:backgroundTint="#00FF00"
+        android:text="Sim"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/Botao2"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FF0000"
+        android:layout_toRightOf="@id/Botao1"
+        android:layout_below="@id/Texto"
+        android:text="Não"
+        android:textSize="25dp"
+        />
+
+
+</RelativeLayout>

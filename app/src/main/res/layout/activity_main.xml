@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portifolio em Android Nativo"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#8d0000"
+        android:layout_marginBottom="25dp"
+        />
+
+    <Button
+        android:id="@+id/telaCalculadora"
+        android:layout_width="300dp"
+        android:text="Calculadora"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8d0000"
+        app:cornerRadius="5dp"
+        />
+
+    <Button
+        android:id="@+id/telaDeLogin"
+        android:layout_width="300dp"
+        android:text="Tela de Login"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8d0000"
+        app:cornerRadius="5dp"
+        />
+
+    <Button
+        android:id="@+id/telaEnvioDados"
+        android:layout_width="300dp"
+        android:text="Envio Dados"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8d0000"
+        app:cornerRadius="5dp"
+        />
+
+    <Button
+        android:id="@+id/TelaCLone"
+        android:layout_width="300dp"
+        android:text="Tela Clone"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8d0000"
+        app:cornerRadius="5dp"
+        />
+
+    <Button
+        android:onClick="Lista"
+        android:id="@+id/TelaLista"
+        android:layout_width="300dp"
+        android:text="Tela Lista"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8d0000"
+        app:cornerRadius="5dp"
+        />
+
+    <Button
+        android:onClick="ListaFixa"
+        android:id="@+id/TelaListaFixa"
+        android:layout_width="300dp"
+        android:text="Tela Lista Fixa"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8d0000"
+        app:cornerRadius="5dp"
+        />
+
+</LinearLayout>
