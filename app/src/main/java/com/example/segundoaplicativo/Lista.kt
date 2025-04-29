@@ -30,5 +30,6 @@ class Lista : AppCompatActivity() {
 
         // variavel use a funcao adapter que recebe o arrayAdapter
         lista.adapter = arrayAdapter
+        //Commit Aula
     }
 }

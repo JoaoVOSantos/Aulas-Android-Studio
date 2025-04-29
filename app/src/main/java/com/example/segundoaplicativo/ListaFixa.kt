@@ -11,6 +11,6 @@ class ListaFixa : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_lista_fixa)
-
+//Commit Aula
     }
 }

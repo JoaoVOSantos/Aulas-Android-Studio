@@ -45,12 +45,14 @@ class MainActivity : AppCompatActivity() {
         // navegação
         var intent = Intent(this, Lista::class.java)
         startActivity(intent)
+        //Commit Aula
 
     }
     fun ListaFixa(view:View){
         // navegação
         var intent = Intent(this, ListaFixa::class.java)
         startActivity(intent)
+        //Commit Aula
 
     }
 
