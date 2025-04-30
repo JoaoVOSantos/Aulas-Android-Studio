@@ -117,5 +117,17 @@
         android:backgroundTint="#8d0000"
         app:cornerRadius="5dp"
         />
+
+        <Button
+            android:onClick="Carregamento"
+            android:id="@+id/TelaCarregamento"
+            android:layout_width="300dp"
+            android:text="Tela Carregamento"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#8d0000"
+            app:cornerRadius="5dp"
+            />
     </LinearLayout>
 </ScrollView>

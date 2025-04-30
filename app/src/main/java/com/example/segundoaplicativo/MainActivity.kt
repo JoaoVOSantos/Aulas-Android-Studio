@@ -57,4 +57,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun Carregamento(view:View){
+        var intent = Intent(this, Carregamento::class.java)
+        startActivity(intent)
+
+    }
+
 }
