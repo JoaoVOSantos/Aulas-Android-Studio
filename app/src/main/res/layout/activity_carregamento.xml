@@ -11,12 +11,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/adlam_display"
-        android:textStyle="bold"
-        android:gravity="center"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/adlam_display"
+        android:gravity="center"
         android:text="Carregando imagens Dinâmicamente"
-        android:textSize="26sp" />
+        android:textSize="26sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imgDinamico"
