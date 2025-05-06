@@ -9,19 +9,21 @@
     tools:context=".Carregamento">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/adlam_display"
+        android:textStyle="bold"
         android:gravity="center"
-        android:textSize="24sp"
+        android:layout_marginTop="10dp"
         android:text="Carregando imagens Dinâmicamente"
-        />
+        android:textSize="26sp" />
 
     <ImageView
+        android:id="@+id/imgDinamico"
         android:layout_width="220dp"
         android:layout_height="220dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:src="@mipmap/albumtr"
         />
 
     <Button
@@ -35,5 +37,6 @@
         android:layout_marginTop="20dp"
         app:cornerRadius="1dp"
         android:text="CARREGAR IMAGEM"
+        android:onClick="CarregarImagem"
         />
 </LinearLayout>
