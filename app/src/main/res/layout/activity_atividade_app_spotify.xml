@@ -52,14 +52,15 @@
             >
 
             <Button
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:backgroundTint="#1ED760"
                 android:textColor="#000000"
                 android:text="Artistas"
-                android:layout_marginLeft="10dp"
                 />
             <Button
+                android:onClick="btnMusicas"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:backgroundTint="#1F1F1F"
@@ -76,6 +77,7 @@
 
 
         <LinearLayout
+            android:onClick="linearCBJ"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/fundo_card"
@@ -83,7 +85,8 @@
             android:paddingBottom="10dp"
             android:layout_margin="5dp"
             android:backgroundTint="#181816"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="OnClick">
 
             <ImageView
                 android:layout_width="wrap_content"
