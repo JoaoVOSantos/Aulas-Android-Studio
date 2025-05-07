@@ -21,4 +21,11 @@ class Musicas : AppCompatActivity() {
         overridePendingTransition(0, 0) // Remove a animação
 
     }
+
+    fun btnListaMusicas(view:View){
+        var intent = Intent(this, ListaMusicas::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, 0) // Remove a animação
+
+    }
 }

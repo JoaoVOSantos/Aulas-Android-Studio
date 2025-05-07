@@ -15,6 +15,9 @@
         android:theme="@style/Theme.SegundoAplicativo"
         tools:targetApi="31">
         <activity
+            android:name=".ListaMusicas"
+            android:exported="false" />
+        <activity
             android:name=".Musicas"
             android:exported="false" />
         <activity
