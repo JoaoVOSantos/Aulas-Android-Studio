@@ -129,5 +129,17 @@
             android:backgroundTint="#8d0000"
             app:cornerRadius="5dp"
             />
+
+        <Button
+            android:onClick="AtividadeAppMusica"
+            android:id="@+id/telaAppMusica"
+            android:layout_width="300dp"
+            android:text="Atividade App Musica"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#8d0000"
+            app:cornerRadius="5dp"
+            />
     </LinearLayout>
 </ScrollView>

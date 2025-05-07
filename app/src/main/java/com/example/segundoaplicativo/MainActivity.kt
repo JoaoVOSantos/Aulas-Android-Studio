@@ -63,4 +63,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun AtividadeAppMusica(view:View){
+        var intent = Intent(this, AtividadeAppSpotify::class.java)
+        startActivity(intent)
+
+    }
+
 }

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#054f77"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaFixa">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:fontFamily="@font/adlam_display"
+            android:background="#054f77"
+            android:text="Lista Albuns"
+            android:textSize="26sp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:backgroundTint="@color/black"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/albumcbj"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charlie Brown Jr."
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00a8ff"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/albumd"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Djonga"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"
+            android:backgroundTint="#C3BA99"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/albuml"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Lagum"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
