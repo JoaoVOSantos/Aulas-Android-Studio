@@ -15,6 +15,9 @@
         android:theme="@style/Theme.SegundoAplicativo"
         tools:targetApi="31">
         <activity
+            android:name=".Musicas"
+            android:exported="false" />
+        <activity
             android:name=".AtividadeAppSpotify"
             android:exported="false" />
         <activity

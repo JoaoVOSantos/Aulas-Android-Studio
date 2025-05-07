@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:background="#054f77"
+    android:background="@color/black"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ListaFixa">
@@ -17,32 +17,78 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:textColor="@color/white"
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_spotify_foreground"
+                />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/adlam_display"
+                android:textStyle="bold"
+                android:text="Spotify"
+                android:textSize="30sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
-            android:fontFamily="@font/adlam_display"
-            android:background="#054f77"
-            android:text="Lista Albuns"
-            android:textSize="26sp"
+            android:orientation="horizontal"
             android:gravity="center"
-            />
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1ED760"
+                android:textColor="#000000"
+                android:text="Artistas"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1F1F1F"
+                android:text="Músicas"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1F1F1F"
+                android:text="Podcasts"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/fundo_card"
-            android:layout_margin="5dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:backgroundTint="@color/black"
+            android:layout_margin="5dp"
+            android:backgroundTint="#181816"
             android:orientation="horizontal">
-            <ImageView
 
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_margin="5dp"
                 android:src="@mipmap/albumcbj"/>
 
             <TextView
@@ -51,7 +97,7 @@
                 android:text="Charlie Brown Jr."
                 android:textColor="@color/white"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+                android:layout_margin="5dp"
                 android:textStyle="bold"
                 android:textSize="24sp"
                 />
@@ -61,18 +107,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/fundo_card"
-            android:layout_margin="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
             android:backgroundTint="#00a8ff"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_margin="5dp"
                 android:src="@mipmap/albumd"/>
 
             <TextView
@@ -81,7 +125,7 @@
                 android:text="Djonga"
                 android:textColor="@color/white"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+                android:layout_margin="5dp"
                 android:textStyle="bold"
                 android:textSize="24sp"
                 />
@@ -91,16 +135,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/fundo_card"
-            android:layout_margin="5dp"
             android:paddingTop="10dp"
-            android:backgroundTint="#C3BA99"
             android:paddingBottom="10dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#C3BA99"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_margin="5dp"
                 android:src="@mipmap/albuml"/>
 
             <TextView
@@ -109,14 +153,149 @@
                 android:layout_gravity="center"
                 android:text="Lagum"
                 android:textColor="@color/white"
-                android:layout_marginLeft="10dp"
+                android:layout_margin="5dp"
                 android:textStyle="bold"
                 android:textSize="24sp"
                 />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#9CC7C5"
+            android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@mipmap/albumr"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rappa"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#9E1A1A"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@mipmap/albumtr"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Terno Rei"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#34447A"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@mipmap/albumbk"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="BK"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#DC5D15"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@mipmap/albums"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Skank"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_card"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#161616"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@mipmap/albumg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="O Grilo"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
