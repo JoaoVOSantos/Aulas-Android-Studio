@@ -15,7 +15,19 @@ class Musicas : AppCompatActivity() {
 
     }
 
-    fun btnArtistas(view:View){
+    fun btnMusicas(view: View){
+        var intent = Intent(this, Musicas::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, 0) // Remove a animação
+
+    }
+    fun btnLista(view: View){
+        var intent = Intent(this, ListaMusicas::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, 0) // Remove a animação
+
+    }
+    fun btnArtistas(view: View){
         var intent = Intent(this, AtividadeAppSpotify::class.java)
         startActivity(intent)
         overridePendingTransition(0, 0) // Remove a animação

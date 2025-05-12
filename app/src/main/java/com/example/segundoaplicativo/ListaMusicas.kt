@@ -1,6 +1,8 @@
 package com.example.segundoaplicativo
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
@@ -40,6 +42,24 @@ class ListaMusicas : AppCompatActivity() {
 
         // variavel use a funcao adapter que recebe o arrayAdapter
         lista_musicas.adapter = arrayAdapter
+
+    }
+    fun btnMusicas(view: View){
+        var intent = Intent(this, Musicas::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, 0) // Remove a animação
+
+    }
+    fun btnLista(view: View){
+        var intent = Intent(this, ListaMusicas::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, 0) // Remove a animação
+
+    }
+    fun btnArtistas(view: View){
+        var intent = Intent(this, AtividadeAppSpotify::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, 0) // Remove a animação
 
     }
 }
