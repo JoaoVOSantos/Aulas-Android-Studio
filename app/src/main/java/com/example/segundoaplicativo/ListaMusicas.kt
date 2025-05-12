@@ -29,7 +29,10 @@ class ListaMusicas : AppCompatActivity() {
             "o mundo explodiu la fora",
             "senhor do tempo",
             "liberdade acima de tudo",
-            "abrir seus olhos"
+            "abrir seus olhos",
+            "Green Goes",
+            "O Nosso Blues",
+            "Aquela Paz"
             )
 
         // Conexao do frontend com o backend
